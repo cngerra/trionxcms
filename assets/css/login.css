@@ -1,0 +1,31 @@
+/*CSS Document for Login Page*/
+body{
+    background-color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.secret{
+    display: none;
+}
+.login-form-wrapper{
+    left: 50%;
+    min-width: 280px;
+    max-width: 280px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-form-wrapper .btn{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase
+}
+@media only screen and (min-width : 480px) {
+    .login-form-wrapper{
+        min-width: 400px;
+        max-width: 400px;  
+    }
+}
+@media only screen and (min-width : 768px) {}
+@media only screen and (min-width : 992px) {}
+@media only screen and (min-width : 1200px) {}

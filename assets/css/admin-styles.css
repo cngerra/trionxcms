@@ -1,0 +1,336 @@
+/*CSS Document for Admin Side Pages*/
+.source-sans-300{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+}
+.source-sans-400{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+}
+.source-sans-600{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+}
+.source-sans-700{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+}
+.oswald-300{
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+}
+.oswald-400{
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+}
+.oswald-700{
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+}
+.h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+}
+.h2{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+}
+.h3{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+}
+.h4{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+}
+.h5{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+}
+.margint0{
+	margin-top: 0 !important;
+}
+.marginb0{
+	margin-bottom: 0 !important;
+}
+.marginl15{
+	margin-left: 15px;
+}
+.marginr15{
+	margin-right: 15px;
+}
+.margintb15{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.margint15{
+	margin-top: 15px;
+}
+.marginb15{
+	margin-bottom: 15px;
+}
+.margintb20{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.margint20{
+	margin-top: 20px;
+}
+.marginb20{
+	margin-bottom: 20px;
+}
+.margintb25{
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+.margint25{
+	margin-top: 25px;
+}
+.marginb25{
+	margin-bottom: 25px;
+}
+.margintb30{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.margint30 {
+	margin-top: 30px;
+}
+.marginb30 {
+	margin-bottom: 30px;
+}
+.margintb45{
+	margin-bottom: 45px;
+	margin-top: 45px;
+}
+.margint45 {
+	margin-top: 45px;
+}
+.marginb45 {
+	margin-bottom: 45px;
+}
+.paddingt15 {
+	padding-top: 15px;
+}
+.paddingb15 {
+	padding-bottom: 15px;
+}
+.paddingtb15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.paddingt20 {
+	padding-top: 20px;
+}
+.paddingb20 {
+	padding-bottom: 20px;
+}
+.paddingtb20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.paddingl25{
+	padding-left: 25px;
+}
+.paddingt30 {
+	padding-top: 30px;
+}
+.paddingb30 {
+	padding-bottom: 30px;
+}
+.paddingtb30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.paddingt40 {
+	padding-top: 40px;
+}
+.paddingb40 {
+	padding-bottom: 40px;
+}
+.paddingtb40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.paddingt45 {
+	padding-top: 45px;
+}
+.paddingb45 {
+	padding-bottom: 45px;
+}
+.paddingtb45 {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.relative{
+	position: relative;
+}
+.inline-block{
+	display: inline-block;
+	vertical-align: middle;
+}
+.block{
+	display: block;
+}
+.form-group {
+	margin-bottom: 25px;
+	position: relative;
+}
+.border-radius-0{
+	border-radius: 0;
+}
+.secret{
+	display: none;
+}
+.slug{
+	font-style: italic;
+	font-size: 12px;
+	padding: 5px 10px;
+	display: block;
+}
+.img-reduced{
+	max-width: 70%;
+}
+form .help-block{
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	border-radius: 0;
+	color: #a94442;
+	display: inline-block;
+	font-size: 10px;
+	font-weight: normal;
+	left: 0;
+	line-height: 1.2;
+	margin-top: 3px;
+	padding: 1px 5px;
+	position: absolute;
+	top: 100%;
+	white-space: initial;
+	z-index: 2;
+}
+.sidebar{
+	background-color: #000;
+	color: #fff;
+	height: 100%;
+	position: fixed;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, 
+.table > tfoot > tr > td, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > thead > tr > th{
+	vertical-align: middle;
+}
+
+/****************************************************
+Sidebar ID and Classes
+****************************************************/
+
+/*Sidebar Menus*/
+.cms-back-end-menu li{
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+.cms-back-end-menu i{
+	min-width: 20px;
+	text-align: center;
+}
+.cms-back-end-menu a{
+	color: #fff;
+	display: block;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.cms-back-end-menu a:hover,
+.cms-back-end-menu a:focus{
+	color: #eee;
+	text-decoration: none;
+}
+.cms-back-end-menu .dropdown{
+	display: none;
+}
+.dropdown-wrapper{
+	cursor: pointer;
+	font-size: 20px;
+	padding: 0 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/****************************************************
+Users ID and Classes
+****************************************************/
+
+/*Avatars*/
+.avatar{
+	border-radius: 100%;
+	color: #fff;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2;
+	height: 30px;
+	width: 30px;
+	padding: 6px 0;
+	text-align: center;
+}
+.avatar-black{
+	background-color: #000;
+}
+.avatar-yellow{
+	background-color: #d7a93a;
+}
+.avatar-red{
+	background-color: #960a04;
+}
+.avatar-green{
+	background-color: #476305;
+}
+.avatar-darkgreen{
+	background-color: #056263;
+}
+.avatar-purple{
+	background-color: #70079b;
+}
+.avatar-gray{
+	background-color: #413f40;
+}
+
+/*Breadcrumb*/
+.breadcrumb a{
+	color: #333;
+	font-weight: 700;
+}
+
+/*Table*/
+.table{
+	margin-bottom: 0;
+}
+
+/*Form Fileds*/
+.textarea{
+	height: 200px;
+	resize: none;
+}
+
+/*Calendar*/
+#ui-datepicker-div{
+	z-index: 9999 !important;
+}
+
+/*Admin Styles*/
+.toggle-password{
+	cursor: pointer;
+	margin: 0 !important;
+	padding: 8px 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 999999;
+}
+.toggle-password .fa{
+	font-size: 20px;
+}
